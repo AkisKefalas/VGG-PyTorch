@@ -32,7 +32,7 @@ PyTorch implementation of selected VGG models. Useful for feature extraction fro
      - Face + Voice
      - `Download <https://drive.google.com/file/d/1Zzrq1s3ooxeVfphI0mBDESW0-VvU_5Zm/view?usp=sharing>`_
      - Static binary voice-to-face matching model trained on VoxCeleb2 [3]_ [4]_
-     - The original code, for static binary voice-to-face matching, is in `Matlab <https://github.com/a-nagrani>`_. I re-implemented it here in PyTorch and added functionality for face-to-voice matching, as well as dynamic images.
+     - The original code, for static binary voice-to-face matching, is in `Matlab <https://github.com/a-nagrani/SVHF-Net>`_. I re-implemented it here in PyTorch and added functionality for face-to-voice matching, as well as dynamic images.
 
 
 Installation
