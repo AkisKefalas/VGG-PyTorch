@@ -156,5 +156,4 @@ def get_dithered_signal(audio: np.ndarray) -> np.ndarray:
     return audio + adjustment
 
 def pre_emphasis_filtering(audio: np.ndarray, alpha: float = 0.97) -> np.ndarray:
-
     return lfilter([1, -alpha], 1, audio)
